@@ -27,14 +27,14 @@ body {
     margin: 0;
 }
 
-.text {
+.text, .form {
     color: #fff;
     text-align: center;
     margin: 0;
     /* padding: 20px; */
 }
 
-#principal {
+#principal, .form {
     grid-column: 2 / 3;
     
 }
@@ -77,7 +77,11 @@ body {
 }
 
 .form {
-    padding-top: 30px;
+    border: 2px solid #6affac;
+    padding: 20px;
+  }
+  
+.item-form {
+    margin: 5px;
+    /* padding: 5px; */
 }
-
-
