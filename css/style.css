@@ -1,0 +1,83 @@
+body {
+    background-color: #000000;
+    
+}
+
+.grid-container {
+        display: grid;
+        gap: 10px; 
+        padding: 30px;
+        grid-template-columns: 1fr 4fr 1fr;
+        
+        
+}
+
+.title {
+    color: #6affac;
+    text-align: center;
+    font-size: 70px;
+    margin: 0;
+    padding-top: 40px;
+    
+}
+
+.subtitle {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.text {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    /* padding: 20px; */
+}
+
+#principal {
+    grid-column: 2 / 3;
+    
+}
+
+.banner {
+    max-width: 100%;
+    grid-column: 2/3;  
+
+}
+
+.sub-grid {
+    display: grid;
+    gap: 10px; 
+    padding: 30px;
+    grid-column: 2/3;
+    grid-template-columns: 1fr 1fr;
+}
+
+#topicos, #form-title {
+    grid-column: 2/3;
+    margin: 0;
+    padding: 20px;
+    color: #6affac;
+}
+
+.marcas {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    grid-row: 1;
+}
+
+#nike, #nike-txt {
+    grid-column: 1/2;
+}
+
+#supreme, #supreme-txt {
+    grid-column: 2/2;
+}
+
+.form {
+    padding-top: 30px;
+}
+
+
