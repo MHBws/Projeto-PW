@@ -1,7 +1,38 @@
 body {
     background-color: #000000;
-    
 }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000ab;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  li:hover {
+    border-bottom: 3px solid #6affac;
+  }
+  
 
 .grid-container {
         display: grid;
@@ -34,7 +65,7 @@ body {
     /* padding: 20px; */
 }
 
-#principal, .form {
+#principal, .form, #marcas, #ideias, #ouca, #ctt {
     grid-column: 2 / 3;
     
 }
@@ -53,11 +84,16 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-#topicos, #form-title {
+#topicos, #form-title, #tideias, #touca {
     grid-column: 2/3;
     margin: 0;
     padding: 20px;
     color: #6affac;
+}
+
+#card  {
+    display: flex;
+    justify-content: center;
 }
 
 .marcas {
@@ -84,4 +120,40 @@ body {
 .item-form {
     margin: 5px;
     /* padding: 5px; */
+}
+
+.ampliada {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .ampliada img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+  }
+ 
+  .galeria {
+	display: inline;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.galeria img {
+	margin: 10px;
+	max-width: 40%;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+.spotfy {
+    margin: 0.8%;
 }
